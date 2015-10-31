@@ -3,6 +3,7 @@ package com.JunitF.JunitTest;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -18,6 +19,8 @@ public class JunitFramelog2 {
 	public void TestFacebook(){
 		dr = new FirefoxDriver();
 		dr.get("https://www.dice.com");
+	String text = dr.findElement(By.xpath("//form[@id='search-form']/fieldset/div[1]/div/strong")).getText();
+		System.out.println("get title"+text);
 	}
 	
 	@After
