@@ -19,8 +19,12 @@ public class JunitFramelog2 {
 	public void TestFacebook(){
 		dr = new FirefoxDriver();
 		dr.get("https://www.dice.com");
+
 	String text = dr.findElement(By.xpath("//form[@id='search-form']/fieldset/div[1]/div/strong")).getText();
 		System.out.println("get title"+text);
+
+		dr.findElement(By.id("search-field-keyword")).sendKeys("automation engineer");
+ 
 	}
 	
 	@After
