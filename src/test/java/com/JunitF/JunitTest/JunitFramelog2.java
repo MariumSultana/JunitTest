@@ -28,6 +28,7 @@ public class JunitFramelog2 {
  System.out.println("new release to");
 
 		System.out.println("relese 2 for team 2 junitframelog");
+		System.out.println("relese 2 for team 2 junitframelog.....team1");
 		
 
 	}
