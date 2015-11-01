@@ -26,6 +26,7 @@ public class Junitpageobject {
 		dr.get("https://www.facebook.com");
 		String text = dr.findElement(By.xpath("//h2")).getText();
 		System.out.println("the text is "+ text );
+		System.out.println("relese 2 for team 2 pageobject");
 	}
 	
 	@After

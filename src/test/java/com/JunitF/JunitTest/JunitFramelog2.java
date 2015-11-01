@@ -20,6 +20,8 @@ public class JunitFramelog2 {
 		dr = new FirefoxDriver();
 		dr.get("https://www.dice.com");
 		dr.findElement(By.id("search-field-keyword")).sendKeys("automation engineer");
+		System.out.println("relese 2 for team 2 junitframelog");
+		
 	}
 	
 	@After
