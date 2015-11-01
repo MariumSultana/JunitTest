@@ -24,7 +24,7 @@ public class JunitFramelog2 {
 		System.out.println("get title"+text);
 
 		dr.findElement(By.id("search-field-keyword")).sendKeys("automation engineer");
- 
+ System.out.println("new release to");
 	}
 	
 	@After
