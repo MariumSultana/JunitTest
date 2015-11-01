@@ -3,6 +3,7 @@ package com.JunitF.JunitTest;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -18,6 +19,7 @@ public class JunitFramelog2 {
 	public void TestFacebook(){
 		dr = new FirefoxDriver();
 		dr.get("https://www.dice.com");
+		dr.findElement(By.id("search-field-keyword")).sendKeys("automation engineer");
 	}
 	
 	@After
