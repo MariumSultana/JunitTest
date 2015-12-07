@@ -27,6 +27,7 @@ public class Junitpageobject {
 		String text = dr.findElement(By.xpath("//h2")).getText();
 		System.out.println("the text is "+ text );
 		System.out.println("relese 2 for team 2 pageobject");
+		System.out.println("relese 2 for team maven");
 	}
 	
 	@After
